@@ -173,9 +173,11 @@ spec:
 ### Step 2: Apply the Pod Configurations
 
 Create the three pods by running the following commands:
- `kubectl apply -f .\pod1.yml`
- `kubectl apply -f .\pod2.yml`
- `kubectl apply -f .\pod3.yml`
+ ```sh
+ kubectl apply -f .\pod1.yml
+ kubectl apply -f .\pod2.yml
+ kubectl apply -f .\pod3.yml
+ ```
 
  ## Task 4: Filtering the pods
 
